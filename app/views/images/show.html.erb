@@ -10,7 +10,7 @@
   </div>
 
   <div class="col-md-3">
-    <%= link_to @image.user.full_name, profile_path(@image.user.username) %>
+    <%= link_to @image.user.full_name.titleize, profile_path(@image.user.username) %>
 
     <p class="border-top mt-3 py-2">
       <% if @image.description.present? %>
