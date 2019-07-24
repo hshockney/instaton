@@ -28,6 +28,7 @@ gem 'devise'
 gem 'active_storage_drag_and_drop'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+gem "aws-sdk-s3", require: false
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
